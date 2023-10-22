@@ -1,0 +1,89 @@
+.root{
+
+    -fx-background-color : #1F1F1F;
+}
+
+#menuStyle{
+
+    -fx-background-color : #25A761;
+}
+
+.label{
+
+    -fx-text-fill : #FAFEFE;
+}
+
+#headTitle{
+
+    -fx-font-size : 28px;
+    -fx-font-style : italic;
+    -fx-font-weight : bold;
+    -fx-text-fill : #FFFFFF;
+}
+
+#homeLabel{
+
+    -fx-font-size : 28px;
+    -fx-font-style : italic;
+    -fx-font-weight : bold;
+    -fx-text-fill : linear-gradient(from 0% 0% to 100% 100%, orange, red, pink);
+}
+
+#userName{
+
+    -fx-font-size : 30px;
+    -fx-font-style : italic;
+    -fx-text-fill : #E6E8E6;
+}
+
+.button{
+
+    -fx-background-color : #2A2A2A;
+    -fx-text-fill : #E6E8E6;
+}
+
+.button:hover{
+
+    -fx-background-color : #515151;
+    -fx-text-fill : #7C7F7E;
+}
+
+#homeButtons{
+
+    -fx-background-color : #1F1F1F;
+    -fx-font-size : 20px;
+    -fx-border-width: 0px;
+}
+
+#menuItem{
+
+    -fx-background-color : #58D08E;
+}
+
+#menuItem .label{
+
+    -fx-text-fill : #FFFFFF;
+}
+
+#menuItem:hover{
+
+    -fx-background-color : #27A05D;
+}
+
+#field{
+
+    -fx-background-color : #323232;
+    -fx-prompt-text-fill : #B9BBBA;
+    -fx-text-fill : #F3F3F3;
+}
+
+#field .list-cell{
+
+    -fx-background-color : #323232;
+    -fx-text-fill : #F3F3F3;
+}
+
+#field .list-cell:hover{
+
+    -fx-background-color : #7C7F7E;
+}
